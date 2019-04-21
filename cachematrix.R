@@ -14,7 +14,16 @@
 ##4.     get the value of the inverse
 
 makeCacheMatrix <- function(x = matrix()) {
-
+  ## initialize the inverse property
+  inv <- NULL
+  
+  ## set the matrix
+  set <- function(matrix){
+    x <<- matrix
+    inv <<- NULL
+  }
+  
+ 
 }
 
 
